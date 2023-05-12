@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springsecuritydemo?characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: 1347477532
+    
+    
+  redis:
+    port: 6379
+    host: 192.168.159.130
+    password: 5950
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 10
+        min-idle: 1
+        time-between-eviction-runs: 10s
